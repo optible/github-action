@@ -1,5 +1,5 @@
 class Docker {
-  readonly repository = 'ghcr.io/optible/renovate';
+  readonly repository = 'ghcr.io/optible/renovate/renovate';
   // renovate: datasource=docker depName=renovate/renovate versioning=docker
   readonly tag = '31.66.1';
   readonly tagSuffix = '';
