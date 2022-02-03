@@ -2830,10 +2830,10 @@ exports.debug = debug; // for test
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 class Docker {
     constructor() {
-        this.repository = 'renovate/renovate';
+        this.repository = 'ghcr.io/optible/renovate/renovate';
         // renovate: datasource=docker depName=renovate/renovate versioning=docker
-        this.tag = '31.66.1-slim';
-        this.tagSuffix = '-slim';
+        this.tag = '31.66.1';
+        this.tagSuffix = '';
     }
     image() {
         return `${this.repository}:${this.tag}`;
