@@ -8,8 +8,7 @@ module.exports = {
   includeForks: true,
   repositories: [
     'renovatebot/github-action',
-    'renovate-tests/cocoapods1',
-    'renovate-tests/gomod1',
+    'renovate-tests/cocoapods1'
   ],
   packageRules: [
     {
